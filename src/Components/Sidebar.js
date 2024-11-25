@@ -1,17 +1,17 @@
 import React from 'react'
 import '../App'
+import { useState } from 'react';
 
-const Sidebar = (props) => {
-
+const Sidebar = (pro) => {
 
 
 
   return (
     
     <div className='container'>
-      <img  className='pic' src = {props.imgSrc} alt={props.name}></img>
-      <h2>{props.name}</h2>
-      <h3>{props.cost}</h3>
+      <img src={pro.imgSrc}/>
+      <h2>{pro.name}</h2>
+      <h3>{pro.cost}</h3>
     </div>
 
     
@@ -20,3 +20,6 @@ const Sidebar = (props) => {
 }
 
 export default Sidebar
+
+
+
