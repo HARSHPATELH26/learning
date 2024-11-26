@@ -1,6 +1,7 @@
 import './App.css';
-import Cards from './Components/Cards';
+
 import Counter from './Components/Counter';
+import Datadetails from './Components/Datadetails';
 import Sidebar from './Components/Sidebar';
 
 
@@ -11,6 +12,7 @@ function App() {
     <Sidebar imgSrc='/Assets/Pressure_Cooker_549.png' name="Pressure Cooker" cost="150"/>
     <Sidebar imgSrc="/Assets/Shoes_1799.png" name="Orange" cost="250" />
    <Counter/>
+   <Datadetails/>
 
    
     </div>

@@ -23,3 +23,19 @@
   border: 1px solid black; 
   text-align: center; 
 }
+
+.btn{
+  color: blue;
+  text-align: center;
+  display: inline;
+}
+
+.empData{
+  border : solid red 1px;
+  width: 200px;
+  height : 250px;
+ display : inline-block;
+  margin : 1em;
+  text-align: center;
+}
+

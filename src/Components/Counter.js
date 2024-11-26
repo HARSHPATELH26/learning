@@ -14,6 +14,7 @@ const Counter = () => {
         return (
           <div className='counter'>
             <h1 >{i}</h1>
+            <hr/>
             <button onClick={() => calc("+")}> Add </button>
             <button onClick={function () { return (calc("-")) }}> Substract </button>
           </div>
