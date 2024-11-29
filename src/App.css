@@ -39,3 +39,73 @@
   text-align: center;
 }
 
+ul {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0; /* Removes default padding */
+}
+
+li {
+  display: inline; /* Makes list items horizontal */
+  margin-right: 20px; /* Adds space between items */
+  transition: color 0.3s; /* Smooth transition for color change */
+  border-bottom: none;
+}
+
+li:hover {
+  color: blue; /* Changes text color to blue on hover */
+}
+
+.sidebar{
+  border : solid red 1px;
+  width: 200px;
+  height : 250px;
+ display : inline-block;
+  margin : 1em;
+  text-align: center;
+}
+.container1{
+  /* border: 3px solid red; */
+  text-align: center;
+}
+
+#codeNumber{
+  text-align: center;
+  margin: 5px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+}
+#coderName{
+  text-align: center;
+  margin: 5px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+}
+.btn1{
+  background-color: aqua;
+  border-radius: 7px;
+  padding: 3px;
+  width: 60px;
+  font-weight: bolder;   
+}
+table{
+  margin-left:430px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table tr th{
+  text-align: center;
+  padding: 5px 19px 5px 19px;
+
+  border: 1px solid black;
+  /* background-color: rgb(39, 142, 232); */
+  color: blue;
+}
+
+table tr td{
+  border: 1px solid black;
+} 
+.fa-trash{
+  margin-left: 15px;
+  margin-right: 15px;
+}
