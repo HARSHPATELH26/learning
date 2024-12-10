@@ -6,7 +6,7 @@ import Datadetails from './Components/Datadetails';
 import Sidebar from './Components/Sidebar';
 import Method from './Components/Method';
 import TableCreation from './Components/TableCreation';
-import Learning from './Components/Learning';
+import RTK from './Redux/RTK';
 
 
 function App() {
@@ -24,7 +24,8 @@ function App() {
         <li><Link to='/aboutus'> Filter/Delete </Link></li>
         <li><Link to='/array'>Method </Link> </li>
         <li><Link to='/tabledetails'>Table Creation </Link> </li>
-        <li><Link to='/syneve'> Learning </Link></li>
+        <li><Link to='/syneve'> RTK </Link></li>
+   
       </ul>
       <hr/>
       <Routes>
@@ -33,7 +34,7 @@ function App() {
         <Route path='/aboutus'element={<Sidebar/>}/>
         <Route path='/array'element={<Method/>}/>
         <Route path='/tabledetails'element={<TableCreation/>}/>
-        <Route path='/syneve'element={<Learning/>}/>
+        <Route path='/syneve'element={<RTK/>}/>
 
       </Routes>
 

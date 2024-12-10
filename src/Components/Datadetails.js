@@ -42,7 +42,7 @@ const showData = () => {
 // const showData = (e)=>{
 //   console.log(e.target.value);
 //   setData3(e.target.value);  
-// }
+// }data1= [0,1,2,3,4,5]
     return (
         <div className='counter'>
             {   flag ?
